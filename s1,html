@@ -1,0 +1,13 @@
+<!DOCFILE html>
+<html>
+<body bgcolor="cyan>>
+<form action="a">
+<select name "subject">
+<option value="java"></option>
+<option value="c"></option> 
+<option value="c++"></option>
+<option value="python"></option>
+</select>
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test page</title>
+<script >
+   
+	function clock()
+ { var p="A.M";
+	var x=new Date();
+	var hh=x.getHours();
+	 if(hh>12)
+	 {
+	 	hh=hh-12;
+	 	p= "P.M";
+	 }
+	var mm=x.getMinutes();
+	var ss=x.getSeconds();
+    document.getElementById('res').value=hh+":"+mm+":"+ss+":"+" "+p;
+}
+
+    </script>
+</head>
+<body>
+<input type="text" id="res" size="12" disabled>
+<input type="button" value="clock" onclick="clock()">
+</body>
+</html>
